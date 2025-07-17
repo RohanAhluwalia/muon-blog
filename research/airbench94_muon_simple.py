@@ -184,6 +184,6 @@ def main():
     return tta_val_acc
 
 if __name__ == "__main__":
-    accs = torch.tensor([main() for run in range(25)])
+    accs = torch.tensor([main() for run in range(1)])
     print("Mean: %.4f    Std: %.4f" % (accs.mean(), accs.std()))
 
