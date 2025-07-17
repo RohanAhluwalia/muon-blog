@@ -9,8 +9,11 @@ python = "^3.11"
 torch = "^2.7.1"
 numpy = "^2.3.1"
 torchvision = "^0.22.1"
+matplotlib = "^3.10.3"
 
 [tool.poetry.dev-dependencies]
+notebook = "^7.4.4"
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

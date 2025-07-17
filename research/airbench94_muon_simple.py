@@ -128,7 +128,9 @@ class CifarNet(nn.Module):
         return self.head(x) / x.size(-1)
 
 def main():
-
+    
+    
+    
     model = CifarNet().cuda().to(memory_format=torch.channels_last)
 
     batch_size = 2000
